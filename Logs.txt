@@ -1,0 +1,258 @@
+[CMake] G├®n├®ration...
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.22631.
+-- Architecture détectée: 64-bit
+-- Support Lua activé
+-- OpenGL trouvé: opengl32;glu32
+-- Utilisation de SDL2 (Windows)
+-- Assimp configuré
+-- Lua lié avec succès
+-- DLL configurée pour copie: libs/assimp/bin/x64/assimp-vc143-mt.dll
+-- DLL configurée pour copie: libs/SDL2/lib/x64/SDL2.dll
+CMake Warning at CMakeLists.txt:235 (message):
+  DLL non trouvée: libs/lua/bin/lua.dll
+Call Stack (most recent call first):
+  CMakeLists.txt:245 (copy_dll_if_exists)
+
+
+-- === Configuration SpicyGamesEngine ===
+-- Version: 1.0.0
+-- Compilateur: MSVC 19.44.35213.0
+-- Architecture: x64
+-- Type de build:
+-- Support Lua: ON
+-- Répertoire de sortie: C:/Users/sanab/Music/SpicyGamesEngine/build
+-- ======================================
+-- Configuring done (0.5s)
+-- Generating done (0.3s)
+-- Build files have been written to: C:/Users/sanab/Music/SpicyGamesEngine/build
+[CMake] Compilation...
+Version MSBuild 17.14.14+a129329f1 pour .NET Framework
+
+  main.cpp
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(1,11): error C2065: 'obj' : identificateur non déclaré [C:\Us
+ers\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(1,27): error C2065: 'newObj' : identificateur non déclaré [C:
+\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(1,1): error C4430: spécificateur de type manquant - int est p
+ris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut [C:\Users\sanab\Music\SpicyGamesEngine\b
+uild\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(2,21): error C2059: erreur de syntaxe : '}' [C:\Users\sanab\M
+usic\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(2,21): error C2143: erreur de syntaxe : absence de ';' avant
+'}' [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(3,17): error C2143: erreur de syntaxe : absence de ';' avant
+'}' [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(3,17): error C2059: erreur de syntaxe : '}' [C:\Users\sanab\M
+usic\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(5,47): error C2039: 'move' n'est pas membre de 'std' [C:\User
+s\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+      C:\Users\sanab\Music\SpicyGamesEngine\build\predefined C++ types (compiler internal)(357,11):
+      voir la déclaration de 'std'
+      C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(5,47):
+      avez-vous l’intention d’inclure <utility> ?
+
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(6,51): error C2065: 'g_sceneObjects' : identificateur non déc
+laré [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(6,17): error C4430: spécificateur de type manquant - int est
+pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut [C:\Users\sanab\Music\SpicyGamesEngine\
+build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(7,13): error C2059: erreur de syntaxe : '}' [C:\Users\sanab\M
+usic\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(7,13): error C2143: erreur de syntaxe : absence de ';' avant
+'}' [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(8,17): error C2653: 'ImGui' : n'est pas un nom de classe ni d
+'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(8,51): error C2143: erreur de syntaxe : absence de ';' avant
+'{' [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(8,51): error C2447: '{' : en-tête de fonction manquant (liste
+ formelle à l'ancien format ?) [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(14,13): error C2653: 'ImGui' : n'est pas un nom de classe ni
+d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(14,20): error C4430: spécificateur de type manquant - int est
+ pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut [C:\Users\sanab\Music\SpicyGamesEngine
+\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(15,9): error C2059: erreur de syntaxe : '}' [C:\Users\sanab\M
+usic\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(15,9): error C2143: erreur de syntaxe : absence de ';' avant
+'}' [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(16,5): error C2143: erreur de syntaxe : absence de ';' avant
+'}' [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(16,5): error C2059: erreur de syntaxe : '}' [C:\Users\sanab\M
+usic\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(18,33): error C2143: erreur de syntaxe : absence de ';' avant
+ '{' [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(18,33): error C2447: '{' : en-tête de fonction manquant (list
+e formelle à l'ancien format ?) [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(23,5): error C2653: 'ImGui' : n'est pas un nom de classe ni d
+'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(23,12): error C4430: spécificateur de type manquant - int est
+ pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut [C:\Users\sanab\Music\SpicyGamesEngine
+\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(24,1): error C2059: erreur de syntaxe : '}' [C:\Users\sanab\M
+usic\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(24,1): error C2143: erreur de syntaxe : absence de ';' avant
+'}' [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(26,29): error C2143: erreur de syntaxe : absence de ';' avant
+ '{' [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(26,29): error C2447: '{' : en-tête de fonction manquant (list
+e formelle à l'ancien format ?) [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(112,10): error C2065: 'g_showProperties' : identificateur non
+ déclaré [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(114,5): error C2653: 'ImGui' : n'est pas un nom de classe ni
+d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(114,33): error C2065: 'g_showProperties' : identificateur non
+ déclaré [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(114,12): error C3861: 'Begin' : identificateur introuvable [C
+:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(116,9): error C2065: 'g_selectedIndex' : identificateur non d
+éclaré [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(116,33): error C2065: 'g_selectedIndex' : identificateur non
+déclaré [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(116,51): error C2065: 'g_sceneObjects' : identificateur non d
+éclaré [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(117,21): error C2065: 'g_sceneObjects' : identificateur non d
+éclaré [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(117,36): error C2065: 'g_selectedIndex' : identificateur non
+déclaré [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(117,19): error C2530: 'obj' : les références doivent être ini
+tialisées [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(121,30): error C3536: 'obj' : ne peut pas être utilisé avant
+d'avoir été initialisé [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(121,9): error C3861: 'strcpy_s' : identificateur introuvable
+[C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(122,13): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(122,20): error C3861: 'InputText' : identificateur introuvabl
+e [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(126,9): error C2653: 'ImGui' : n'est pas un nom de classe ni
+d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(126,16): error C3861: 'Checkbox' : identificateur introuvable
+ [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(128,9): error C2653: 'ImGui' : n'est pas un nom de classe ni
+d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(128,16): error C3861: 'Separator' : identificateur introuvabl
+e [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(131,13): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(131,50): error C2065: 'ImGuiTreeNodeFlags_DefaultOpen' : iden
+tificateur non déclaré [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(131,20): error C3861: 'CollapsingHeader' : identificateur int
+rouvable [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(133,33): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(133,63): error C2653: 'glm' : n'est pas un nom de classe ni d
+'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(133,68): error C3861: 'value_ptr' : identificateur introuvabl
+e [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(133,40): error C3861: 'DragFloat3' : identificateur introuvab
+le [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(133,50): warning C4805: '|=' : mélange risqué de type 'bool'
+et de type '<error type>' dans l'opération [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(133,50): warning C4805: '|' : mélange risqué de type 'bool' e
+t de type '<error type>' dans l'opération [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(134,33): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(134,63): error C2653: 'glm' : n'est pas un nom de classe ni d
+'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(134,68): error C3861: 'value_ptr' : identificateur introuvabl
+e [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(134,40): error C3861: 'DragFloat3' : identificateur introuvab
+le [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(134,50): warning C4805: '|=' : mélange risqué de type 'bool'
+et de type '<error type>' dans l'opération [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(134,50): warning C4805: '|' : mélange risqué de type 'bool' e
+t de type '<error type>' dans l'opération [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(135,33): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(135,60): error C2653: 'glm' : n'est pas un nom de classe ni d
+'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(135,65): error C3861: 'value_ptr' : identificateur introuvabl
+e [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(135,40): error C3861: 'DragFloat3' : identificateur introuvab
+le [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(135,50): warning C4805: '|=' : mélange risqué de type 'bool'
+et de type '<error type>' dans l'opération [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(135,50): warning C4805: '|' : mélange risqué de type 'bool' e
+t de type '<error type>' dans l'opération [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(141,17): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(141,24): error C3861: 'Button' : identificateur introuvable [
+C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(142,33): error C2653: 'glm' : n'est pas un nom de classe ni d
+'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(142,38): error C3861: 'vec3' : identificateur introuvable [C:
+\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(143,33): error C2653: 'glm' : n'est pas un nom de classe ni d
+'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(143,38): error C3861: 'vec3' : identificateur introuvable [C:
+\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(144,30): error C2653: 'glm' : n'est pas un nom de classe ni d
+'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(144,35): error C3861: 'vec3' : identificateur introuvable [C:
+\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(150,13): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(150,20): error C3861: 'CollapsingHeader' : identificateur int
+rouvable [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(151,13): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(151,40): error C2653: 'glm' : n'est pas un nom de classe ni d
+'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(151,45): error C3861: 'value_ptr' : identificateur introuvabl
+e [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(151,20): error C3861: 'ColorEdit3' : identificateur introuvab
+le [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(152,13): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(152,20): error C3861: 'SliderFloat' : identificateur introuva
+ble [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(153,13): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(153,20): error C3861: 'SliderFloat' : identificateur introuva
+ble [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(154,13): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(154,20): error C3861: 'SliderFloat' : identificateur introuva
+ble [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(156,13): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(156,20): error C3861: 'Separator' : identificateur introuvabl
+e [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(157,13): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(157,20): error C3861: 'Text' : identificateur introuvable [C:
+\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(158,17): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(158,24): error C3861: 'Button' : identificateur introuvable [
+C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(160,17): error C2064: le terme ne correspond pas à une foncti
+on qui prend 1 arguments [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(163,18): error C2065: 'g_textures' : identificateur non décla
+ré [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(164,17): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(164,24): error C3861: 'Text' : identificateur introuvable [C:
+\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(165,40): error C2065: 'g_textures' : identificateur non décla
+ré [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(165,34): error C2530: 'tex' : les références doivent être ini
+tialisées [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(165,34): error C3531: 'tex' : un symbole dont le type contien
+t 'auto' doit avoir un initialiseur [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(165,38): error C2143: erreur de syntaxe : absence de ';' avan
+t ':' [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(165,50): error C2143: erreur de syntaxe : absence de ';' avan
+t ')' [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(166,25): error C2653: 'ImGui' : n'est pas un nom de classe ni
+ d'espace de noms [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(166,32): error C3861: 'Selectable' : identificateur introuvab
+le [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(168,25): error C2064: le terme ne correspond pas à une foncti
+on qui prend 1 arguments [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+C:\Users\sanab\Music\SpicyGamesEngine\engine\src\main.cpp(168,25): error C1003: le nombre d'erreurs est supérieur à 100
+ ; arrêt de la compilation [C:\Users\sanab\Music\SpicyGamesEngine\build\SpicyGamesEngine.vcxproj]
+
+Ô£à Build termin├®.
+L'ex├®cutable est situ├® dans: build\Release\SpicyGamesEngine.exe
+Appuyez sur une touche pour continuer...
